@@ -1,17 +1,15 @@
 {
   "expo": {
-    "name": "SankalpApp",
-    "slug": "sankalp-app",
+    "name": "Sankalp Learning",
+    "slug": "sankalp-learning",
     "version": "1.0.0",
     "orientation": "portrait",
-    "jsEngine": "jsc",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "splash": {
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/d4409dc5-c35d-4549-88fd-36978f8f3c16"
+      "backgroundColor": "#8b5cf6"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,21 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "com.pranayexp0.sankalpapp"
-    },
-    "web": {},
-    "extra": {
-      "eas": {
-        "projectId": "d4409dc5-c35d-4549-88fd-36978f8f3c16"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#8b5cf6"
       }
     },
-    "runtimeVersion": {
-      "policy": "appVersion"
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "server"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
