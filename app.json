@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "SankalpApp",
+    "slug": "sankalp-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "jsc",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/d4409dc5-c35d-4549-88fd-36978f8f3c16"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.pranayexp0.sankalpapp"
+    },
+    "web": {},
+    "extra": {
+      "eas": {
+        "projectId": "d4409dc5-c35d-4549-88fd-36978f8f3c16"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
